@@ -1,0 +1,456 @@
+@font-face {
+    font-family: nunito;
+    src: url("../fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: rocksalt;
+    src: url("../fonts/RockSalt-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+p {
+    font-family: nunito;
+}
+
+/* Bis 600 px: Small
+601 px - 900 px: Medium
+901 px - 1200 px: Large
+Alles größer als 1201 px: Extra Larg
+ */
+
+/*  Farben   #DF8480 #242424 #DF8480   #000000*/
+
+/* header {
+    height: 500px;
+} */
+
+header {
+    background-image: url("../img/dog_catching_snack.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80rem;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: rocksalt;
+    font-size: 2rem;
+}
+
+h3 {
+    text-align: right;
+    color: #DF8480;
+    font-family: nunito;
+    font-size: 1.5rem;
+    padding-right: 1.6rem;
+    font-weight: 900;
+    line-height: 2.1rem;
+}
+
+.works {
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: #DF8480;
+    color: #FFFFFF;
+    padding: 2rem 0;
+}
+
+.steps {
+    text-align: center;
+}
+
+.steps p {
+    padding: .8rem 0;
+}
+
+.step1>p:nth-of-type(1) {
+    color: #DF8480;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.step1>p:nth-of-type(2) {
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: 700;
+
+
+}
+
+.step2>p:nth-of-type(1) {
+    color: #DF8480;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.step2>p:nth-of-type(2) {
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: 700;
+
+
+}
+
+.step3>p:nth-of-type(1) {
+    color: #DF8480;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.step3>p:nth-of-type(2) {
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: 700;
+
+}
+
+.dogpic {
+    background-image: url("../img/dog_eating_cookies.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+
+}
+
+.menu {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    background-color: #DF8480;
+    padding: 2rem 0;
+}
+
+
+
+.dogbowl {
+    background-image: url("../img/dog_bowl.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 25rem;
+    margin: 0 auto;
+    /* display: inline-block; */
+
+    /* background-size: 30rem; */
+}
+
+.dogbowl p:nth-of-type(1) {
+    display: inline;
+    font-size: 1.8rem;
+    font-weight: 700;
+    /* align-self: flex-start; */
+    padding-top: 1rem;
+    padding-left: 10rem;
+}
+
+.dogbowl p:nth-of-type(2) {
+
+    display: inline;
+    font-size: 1.8rem;
+    font-weight: 700;
+    /* align-self: center; */
+    padding-top: 9rem;
+    /*  padding-left: 44rem; */
+
+}
+
+.dogbowl p:nth-of-type(3) {
+    display: inline;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-top: 11rem;
+    padding-left: 10rem;
+    /* align-self: flex-end; */
+}
+
+.ourchefs {
+    text-align: center;
+    padding: 4rem 1rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #000000
+}
+
+footer {
+    background-color: #242424;
+
+}
+
+.footertxt {
+    padding-top: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.8rem;
+
+}
+
+.reflink li {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+
+
+.email {
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 0.1rem solid #FFFFFF;
+    padding: 1rem 6rem;
+    border-radius: 2rem;
+    color: #000000;
+
+}
+
+.signup {
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: #DF8480;
+    border: 0.1rem solid #FFFFFF;
+    padding: 1rem 8.6rem;
+    border-radius: 2rem;
+    color: #000000;
+}
+
+.socialmedia {
+    text-align: center;
+}
+
+.socialmedia a:nth-of-type(2) {
+    padding: 0rem 12rem;
+}
+
+.chomp {
+
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+
+/* ==================== Medium 601px - 900px ==================== */
+
+@media only screen and (min-width: 601px) {
+
+    .step1>p:nth-of-type(1) {
+        color: #DF8480;
+        font-size: 5rem;
+        font-weight: 1000;
+    }
+
+    .step1>p:nth-of-type(2) {
+        color: #000000;
+        font-size: 2rem;
+        font-weight: 700;
+
+
+    }
+
+    .step2>p:nth-of-type(1) {
+        color: #DF8480;
+        font-size: 5rem;
+        font-weight: 1000;
+    }
+
+    .step2>p:nth-of-type(2) {
+        color: #000000;
+        font-size: 2rem;
+        font-weight: 700;
+
+
+    }
+
+    .step3>p:nth-of-type(1) {
+        color: #DF8480;
+        font-size: 5rem;
+        font-weight: 1000;
+    }
+
+    .step3>p:nth-of-type(2) {
+        color: #000000;
+        font-size: 2rem;
+        font-weight: 700;
+
+    }
+
+    .span1 {
+        display: flex;
+        width: 100%;
+    }
+
+    .dogpic {
+
+        width: 50%;
+        height: 30vh;
+
+    }
+
+    .dogbowl {
+
+
+        width: 50%;
+        height: 30vh;
+
+    }
+
+    .socialmedia {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        justify-content: space-evenly;
+    }
+}
+
+
+/* =================== 901 px - 1200 px ================== */
+
+
+@media only screen and (min-width:901px) {
+
+    header {
+        background: none;
+
+    }
+
+    span {
+        width: 100%;
+        display: flex;
+    }
+
+    .headmain2 {
+        width: 50%;
+        background-image: url("../img/dog_catching_snack.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+    }
+
+    header span h3 {
+        width: 50%;
+        background-color: #DF8480;
+        color: #FFFFFF;
+        height: 80vh;
+        font-size: 5rem;
+    }
+
+
+    h1 {
+
+        text-align: center;
+        font-family: rocksalt;
+        font-size: 2rem;
+    }
+
+    header span h3 {
+        text-align: right;
+
+        color: #000000;
+        font-family: nunito;
+        font-size: 3rem;
+        padding-top: 5rem;
+        padding-left: 4rem;
+        font-weight: 900;
+        line-height: 3.5rem;
+    }
+
+
+
+    .works {
+        font-size: 5rem;
+        text-align: center;
+        font-family: nunito;
+        background-color: #FFFFFF;
+        color: #DF8480;
+        padding: 2rem 0;
+        font-weight: 800;
+    }
+
+    .steps {
+        display: flex;
+        /*  gap: 5rem; */
+        justify-content: space-around;
+
+    }
+
+    .step1 {
+        border: 1px solid whitesmoke;
+        border-radius: 2rem;
+        box-shadow: 5px 10px black;
+        width: 20rem;
+    }
+
+    .step2 {
+
+        border: 1px solid whitesmoke;
+        border-radius: 2rem;
+        box-shadow: 5px 10px black;
+        width: 20rem;
+    }
+
+    .step3 {
+        border: 1px solid whitesmoke;
+        border-radius: 2rem;
+        box-shadow: 5px 10px black;
+        width: 20rem;
+    }
+
+    .menu {
+        font-size: 5rem;
+        text-align: center;
+        font-family: nunito;
+        background-color: #FFFFFF;
+        color: #DF8480;
+        padding: 6rem 0;
+        font-weight: 800;
+    }
+
+    .main2 {
+        display: flex;
+        justify-content: space-around;
+        padding: 10vh 5vw;
+
+    }
+
+    .dogpic {
+
+        border: 1px solid white;
+        border-radius: 8px;
+    }
+
+    .dogbowl {
+        border: 1px solid white;
+        border-radius: 8px;
+    }
+
+    .ourchefs {
+        text-align: center;
+        padding-top: 8rem;
+        border: 1px solid white;
+        border-radius: 8px;
+        background-color: #DF8480;
+        width: 35rem;
+    }
+
+
+
+}
